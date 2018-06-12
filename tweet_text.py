@@ -20,5 +20,5 @@ def idle_text():
     # Construct the text we want to tweet out (280 chars max)
     berlin_time = datetime.now(timezone('Europe/Berlin'))
     formatted_time = berlin_time.strftime("%H:%M:%S on a %A")
-    text = "It is " + formatted_time + "!"
+    text = "Hello fellas, tweeting all day long?"
     return text
